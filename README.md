@@ -1,0 +1,2 @@
+# BrowserExtensionUsingAngularWorksInChromeNotInEdge
+Sample code for a stackoverflow question
