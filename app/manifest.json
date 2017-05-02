@@ -1,17 +1,13 @@
 {
   "manifest_version": 2,
   "name": "BrowserExtensionUsingAngularWorksChromeNotEdge",
-  "short_name": "BrowserExtensionUsingAngularWorksChromeNotEdge",
   "version": "1.0.0",
-  "description": "BrowserExtensionUsingAngularWorksChromeNotEdge",
   "author": "Greg Trevellick",
-  "homepage_url": "https://gregtrevellick.github.io/VisualStudioMarketplaceMetrics/",
   "page_action": {
     "default_icon": {
       "19": "icon_19x19.png"
     },
-      "default_title": "BrowserExtensionUsingAngularWorksChromeNotEdge",
-      "default_popup": "popup.html"
+     "default_popup": "popup.html"
     },
   "background": {
     "scripts": [ "scripts/background.js" ],
@@ -21,7 +17,8 @@
     {
       "matches": [
         "http://marketplace.visualstudio.com/*",
-        "https://marketplace.visualstudio.com/*"
+        "https://marketplace.visualstudio.com/*",
+        "http://www.bbc.co.uk/*"
       ],
       "js": [
         "scripts/contentscript.js",
@@ -33,7 +30,8 @@
     "activeTab",
     "declarativeContent",
     "http://marketplace.visualstudio.com/",
-    "https://marketplace.visualstudio.com/"
+    "https://marketplace.visualstudio.com/",
+    "http://www.bbc.co.uk/"
   ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
