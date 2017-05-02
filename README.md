@@ -27,7 +27,7 @@ Edge direct browse to [popup.html](https://github.com/GregTrevellick/BrowserExte
 
 To summarize it is only as an Edge extension that the evaluation fails, as a Chrome extension or as a non-extension in Edge and Chrome it works.
 
-I have a video demo of the issue on [You tube](https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw)
+I have a video demo of the issue on [You tube](https://youtu.be/IRI3na7BQMM)
 
 I have placed a full version of the source code on [GitHub](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge) but extension is quite simple, as follows:
 
