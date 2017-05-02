@@ -15,7 +15,7 @@ Edge as a browser extension
 
 ![Edge as a browser extension](EdgeExtension.png)
 
-I believe the html and angular interaction itself is fundamentally sound, because when I browse directly to the [pop up page](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html), using a URL such as ```file:///C:/Source/Repos/BrowserExtensionUsingAngularWorksInChromeNotInEdge/app/popup.html```, both Chrome and Edge evaluate the expression ```{{2+2}}``` to "4". 
+I believe the html and angular interaction itself is fundamentally sound, because when I browse directly to the [pop up page](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html), using a URL such as ```file:///C:/temp/app/popup.html```, both Chrome and Edge evaluate the expression ```{{2+2}}``` to "4". 
 
 Chrome direct browse to popup.html
 
