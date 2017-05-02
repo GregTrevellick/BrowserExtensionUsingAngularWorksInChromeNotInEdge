@@ -17,11 +17,11 @@ Edge as a browser extension
 
 I believe the html and angular interaction itself is fundamentally sound, because when I browse directly to the [pop up page](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html), using a URL such as ```file:///C:/temp/app/popup.html```, both Chrome and Edge evaluate the expression ```{{2+2}}``` to "4". 
 
-Chrome direct browse to popup.html
+Chrome direct browse to [popup.html](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html)
 
 ![Chrome direct browse to popup.html](ChromeDirect.png)
 
-Edge direct browse to popup.html
+Edge direct browse to [popup.html](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html)
 
 ![Edge direct browse to popup.html](EdgeDirect.png)
 
@@ -83,8 +83,7 @@ window.browser.runtime.onMessage.addListener(
 
 And finally a [manifest.json](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/manifest.json) file that wires everything up together, which both browsers understand:
 
-```
-{
+```{
   "manifest_version": 2,
   "name": "BrowserExtensionUsingAngularWorksChromeNotEdge",
   "version": "1.0.0",
