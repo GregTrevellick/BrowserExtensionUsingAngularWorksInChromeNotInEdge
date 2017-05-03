@@ -1,3 +1,4 @@
+// Set the window object for multiple browser compatibility
 window.browser = (function () {
     return window.msBrowser ||
       window.browser ||

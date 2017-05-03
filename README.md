@@ -53,6 +53,7 @@ An [app.js](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksI
 
 A [contentscript.js](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/scripts/contentscript.js) that tells the website to open the pop-up: 
 ``` 
+// Set the window object for multiple browser compatibility
 window.browser = (function () {
     return window.msBrowser ||
       window.browser ||
@@ -64,7 +65,9 @@ window.browser.runtime.sendMessage({ action: "openPopUp" });
 
 A [background.js](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/scripts/background.js) script that actually opens the popup.html file:
 
-```window.browser = (function () {
+```
+// Set the window object for multiple browser compatibility
+window.browser = (function () {
     return window.msBrowser ||
       window.browser ||
       window.chrome;
@@ -85,7 +88,8 @@ window.browser.runtime.onMessage.addListener(
 
 And finally a [manifest.json](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/manifest.json) file that wires everything up together, which both browsers understand:
 
-```{
+```
+{
   "manifest_version": 2,
   "name": "BrowserExtensionUsingAngularWorksChromeNotEdge",
   "version": "1.0.0",
