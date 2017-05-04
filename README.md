@@ -11,26 +11,26 @@ When I browse to a relevant website (as configured in the [manifest file](https:
 
 Chrome example
 
-![Chrome as a browser extension](ChromeExtension.png)
+![Chrome as a browser extension](http://i.imgur.com/9bFBu7I.png)
 
 Edge example
 
-![Edge as a browser extension](EdgeExtension.png)
+![Edge as a browser extension](http://i.imgur.com/nAhgBEu.png)
 
 I believe the html and angular interaction itself is fundamentally sound, because when I browse directly to the [pop up page](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html), using a URL such as ```file:///C:/temp/app/popup.html```, both Chrome and Edge correctly evaluate the expression ```{{2+2}}``` to "4". 
 
 Chrome example when brosing directly to [popup.html](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html)
 
-![Chrome direct browse to popup.html](ChromeDirect.png)
+![Chrome direct browse to popup.html](http://i.imgur.com/hARYA8g.png)
 
 Edge example when browsing directly to [popup.html](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html)
 
-![Edge direct browse to popup.html](EdgeDirect.png)
+![Edge direct browse to popup.html](http://i.imgur.com/38hIRKx.png)
 
 To summarize, it is only as an Edge extension that the expression evaluation fails; as a Chrome extension or with direct browsing in both Edge and Chrome it works.
 
-Video demo of the four scenarios:
-[![YouTube demo](https://www.youtube.com/watch?v=MEk-0VzBGHo/0.jpg)](https://www.youtube.com/watch?v=MEk-0VzBGHo)
+Thirty second video demo on You Tube:
+[![YouTube demo](https://img.youtube.com/vi/MEk-0VzBGHo/0.jpg)](https://www.youtube.com/watch?v=MEk-0VzBGHo)
 
 I have placed a full version of the source code on [GitHub](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge) but code is quite simple and consists of the following:
 
@@ -126,6 +126,8 @@ And finally a [manifest.json](https://github.com/GregTrevellick/BrowserExtension
 
 For what its worth, some instructions on getting started with Chrome extensions can be found [here](https://developer.chrome.com/extensions/getstarted) and for Edge [here](https://channel9.msdn.com/Blogs/One-Dev-Minute/Debugging-Microsoft-Edge-Extensions).
 
+
+http://stackoverflow.com/questions/43775016/angular-expression-evaluates-in-chrome-extension-but-not-in-edge-extension
 
 TAGS
 
