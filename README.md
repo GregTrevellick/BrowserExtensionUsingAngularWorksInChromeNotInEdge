@@ -1,5 +1,7 @@
 # Angular expression evaluates in Chrome extension but not in Edge extension
 
+STACKOVERFLOW QUESTION
+
 I have a simple browser extension, using Angular (v1.6.3), but the Angular expression in the pop-up window of the browser extension is failing to evaluate in Edge, but it is in Chrome.
 
 The Angular expression is simply ```<div>{{2+2}}</div>```.
