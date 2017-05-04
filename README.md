@@ -27,7 +27,8 @@ Edge example when browsing directly to [popup.html](https://github.com/GregTreve
 
 To summarize, it is only as an Edge extension that the expression evaluation fails; as a Chrome extension or with direct browsing in both Edge and Chrome it works.
 
-I have a video demo of the issue on [You tube](https://youtu.be/IRI3na7BQMM)
+Video demo of the four scenarios:
+[![YouTube demo](https://www.youtube.com/watch?v=cOaZLc0udZw/0.jpg)](https://www.youtube.com/watch?v=cOaZLc0udZw)
 
 I have placed a full version of the source code on [GitHub](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge) but code is quite simple and consists of the following:
 
