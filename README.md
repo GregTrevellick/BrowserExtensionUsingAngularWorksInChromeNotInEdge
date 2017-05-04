@@ -64,7 +64,7 @@ window.browser = (function () {
 window.browser.runtime.sendMessage({ action: "openPopUp" });
 ```
 
-A [background.js](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/scripts/background.js) script that actually opens the popup.html file:
+A [background.js](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/scripts/background.js) script that actually opens the [popup.html](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/blob/master/app/popup.html) file:
 
 ```
 // Set the window object for multiple browser compatibility
