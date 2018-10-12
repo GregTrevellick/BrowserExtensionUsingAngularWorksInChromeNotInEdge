@@ -9,6 +9,7 @@
 [![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge?branch=master)](https://bettercodehub.com/results/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fbab92a148b146209eda380777abc7c5)](https://www.codacy.com/project/gtrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge&amp;utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/badge)](https://www.codefactor.io/repository/github/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge)
+[![Inspecode Report](https://inspecode.rocro.com/badges/github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/report?token=oiC3zAlWfQoJ0J99U_3ETsi7sXFllqmEiPWjlDzujOA&branch=master)](https://inspecode.rocro.com/reports/github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/branch/master/summary)
 [![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge.svg)](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge)
 [![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge.svg)](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge)
 [![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge.svg)](https://github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/issues)
@@ -27,6 +28,7 @@
 
 
 
+[![Inspecode Job Status](https://inspecode.rocro.com/badges/github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/status?token=oiC3zAlWfQoJ0J99U_3ETsi7sXFllqmEiPWjlDzujOA)](https://inspecode.rocro.com/jobs/github.com/GregTrevellick/BrowserExtensionUsingAngularWorksInChromeNotInEdge/latest?completed=true)
 [![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
 [![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
 [![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
